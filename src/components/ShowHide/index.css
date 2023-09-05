@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.show-hide-item-con {
+  margin-bottom: 50px;
+}
+
+button {
+  height: 38px;
+  width: 180px;
+  border: 0px;
+  border-radius: 10px;
+  color: #dd1264;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.show-hide-op-con {
+  background-color: #fddddb;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.last-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .show-hide-items-con {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+  }
+
+  .show-hide-item-con {
+    height: 300px;
+    width: 550px;
+    margin-right: 90px;
+  }
+}
